@@ -1,4 +1,4 @@
-def add(x,y):
+"""def add(x,y):
     return x+y
 def sub(x,y):
     return x-y
@@ -26,3 +26,7 @@ elif(option==4):
     print(div(num1,num2))
 else:
     print('Invalid Option')
+"""
+a = " a a a "
+for i in a:
+    print(i,end='')

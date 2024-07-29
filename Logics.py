@@ -19,7 +19,12 @@ for a in str1:
         count= count+1
 print('The Number of Vowels :',count)"""
 
-#reversing a string
+"""#reversing a string
 a = input('enter a string :')
 b = a[::-1]
-print(b)
+print(b)"""
+a = int(input("enter :"))
+for b in range(a):
+    for j in range(b):
+        print('*',end=' ')
+    print()
